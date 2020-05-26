@@ -10,10 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56d1db8d-03ec-465b-ae9f-4121aaaac7bf" name="Default Changelist" comment="">
+    <list default="true" id="425a32e8-ed50-4c4f-8523-98947e9aa99e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/game.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/platform.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/platform.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/review.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/review.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1cPDLijo6gKaDhwn55ckGOQwIFE" />
+  <component name="ProjectId" id="1cQbyVUJ3uO9oE7QUvB0GP2mowS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,8 +33,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Rails.Development: criticx-alpha">
     <configuration name="Development: criticx-alpha" type="RailsRunConfigurationType" factoryName="Rails">
@@ -135,19 +136,18 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56d1db8d-03ec-465b-ae9f-4121aaaac7bf" name="Default Changelist" comment="" />
-      <created>1590421280935</created>
+      <changelist id="425a32e8-ed50-4c4f-8523-98947e9aa99e" name="Default Changelist" comment="" />
+      <created>1590464018406</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590421280935</updated>
-      <workItem from="1590421290280" duration="7355000" />
-      <workItem from="1590462808501" duration="268000" />
+      <updated>1590464018406</updated>
+      <workItem from="1590464020000" duration="2257000" />
     </task>
     <servers />
   </component>
@@ -155,15 +155,6 @@
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
