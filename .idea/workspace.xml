@@ -12,10 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56d1db8d-03ec-465b-ae9f-4121aaaac7bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/company.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/company.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/game.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/review.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/review.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/platform.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/platform.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cPDLijo6gKaDhwn55ckGOQwIFE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -148,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590421280935</updated>
       <workItem from="1590421290280" duration="7355000" />
+      <workItem from="1590462808501" duration="268000" />
     </task>
     <servers />
   </component>
@@ -164,5 +164,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
