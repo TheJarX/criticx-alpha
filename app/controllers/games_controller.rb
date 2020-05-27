@@ -43,6 +43,11 @@ class GamesController < ApplicationController
     end
   end
 
+  def destroy
+    game = Game.find(params[:id])
+    game.destroy
+    redirect_to games_path
+  end
   private
   # Only allow a list of trusted parameters through.
   def game_params
