@@ -7,3 +7,4 @@
   <li>Platform(s): <%=@game.platforms.map do |p| p.name end.join(', ')%></li>
   <li>Genre(s): <%=@game.genres.map do |g| g.name end.join(', ')%></li>
 </ul>
+<%=link_to "Back to Games", games_path %>
