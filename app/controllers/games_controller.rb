@@ -30,6 +30,19 @@ class GamesController < ApplicationController
     render :show
   end
 
+  def edit
+    @game = Game.find(params[:id])
+  end
+
+  def update
+    @game = Game.find(params[:id])
+    if @game.update(game_params)
+      redirect_to(@game)
+    else
+      render :edit
+    end
+  end
+
   private
   # Only allow a list of trusted parameters through.
   def game_params
