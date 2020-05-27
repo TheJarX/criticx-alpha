@@ -1,5 +1,5 @@
 class Company < ApplicationRecord
-  validates :name, :country, allow_blank: false
+  validates :name, :country, presence: false
   validates :name, uniqueness: true
 
   has_many :involved_companies

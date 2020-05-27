@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="425a32e8-ed50-4c4f-8523-98947e9aa99e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/company.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/company.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/game.rb" afterDir="false" />
@@ -19,7 +20,11 @@
       <change beforePath="$PROJECT_DIR$/app/models/platform.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/platform.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/review.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/review.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200525174453_create_companies.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20200525174453_create_companies.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200525181536_create_join_game_platform.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200525181622_create_join_game_genre.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590464018406</updated>
       <workItem from="1590464020000" duration="2257000" />
+      <workItem from="1590523298823" duration="16060000" />
     </task>
     <servers />
   </component>
@@ -161,6 +167,15 @@
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">

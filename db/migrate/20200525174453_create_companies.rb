@@ -4,7 +4,7 @@ class CreateCompanies < ActiveRecord::Migration[6.0]
       t.string :name
       t.text :description
       t.date :start_date
-      t.string :countr
+      t.string :country
 
       t.timestamps
     end

@@ -6,7 +6,7 @@ end
 class User < ApplicationRecord
   include ActiveModel::Validations
   validates_with UserAgeValidator
-  validates username, email, allow_blank: false
+  validates username, email, presence: true
 
   has_many :reviews
 
