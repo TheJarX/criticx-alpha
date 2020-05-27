@@ -12,6 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="425a32e8-ed50-4c4f-8523-98947e9aa99e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,9 +170,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="444" y="177" width="467" height="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590613098887">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="444" y="177" width="467" height="405" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1590613098887" />
     <state width="498" height="445" key="SwitcherDM" timestamp="1590513400536">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1590513400536" />
+    <state x="506" y="296" width="344" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590597983026">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="506" y="296" width="344" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1590597983026" />
   </component>
 </project>
