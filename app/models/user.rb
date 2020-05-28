@@ -1,12 +1,13 @@
 class UserAgeValidator < ActiveModel::Validator
   def validate(user)
-    user.errors[:birth_date] << 'You should be 16 years old to create an account' unless user.age < 16
+    user.errors[:birth_date] << 'You should be 16 years old to create an account' unless user.age > 16
   end
 end
 class User < ApplicationRecord
+  has_secure_password
   include ActiveModel::Validations
   validates_with UserAgeValidator
-  validates username, email, presence: true
+  validates :username, :email, presence: true
 
   has_many :reviews
 
@@ -17,8 +18,8 @@ class User < ApplicationRecord
   require 'date'
 
   # Method from Stackoverflow (thank u, philnash <3)
-  def age(dob)
-    dob = Date.parse(dob)
+  def age
+    dob = self.birth_date
     now = Time.now.utc.to_date
     now.year - dob.year - (now.month > dob.month || (now.month == dob.month && now.day >= dob.day) ? 0 : 1)
   end
